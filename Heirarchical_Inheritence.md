@@ -31,6 +31,92 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
+```python
+
+class Details:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def getName(self):
+        return self.name
+    
+    def getAge(self):
+        return self.age
+
+
+class Employee(Details):
+    def __init__(self, name, age, employee_id, department):
+        super().__init__(name, age)
+        self.employee_id = employee_id
+        self.department = department
+    
+    def getEmployeeDetails(self):
+        print("\n--- Employee Details ---")
+        print(f"Name       : {self.getName()}")
+        print(f"Age        : {self.getAge()}")
+        print(f"Employee ID: {self.employee_id}")
+        print(f"Department : {self.department}")
+
+
+class Patient(Details):
+    def __init__(self, name, age, patient_id, disease):
+        super().__init__(name, age)
+        self.patient_id = patient_id
+        self.disease = disease
+    
+    def getPatientDetails(self):
+        print("\n--- Patient Details ---")
+        print(f"Name      : {self.getName()}")
+        print(f"Age       : {self.getAge()}")
+        print(f"Patient ID: {self.patient_id}")
+        print(f"Disease   : {self.disease}")
+
+
+
+if __name__ == "__main__":
+    
+    emp_name = input("Enter Employee Name: ")
+    emp_age = int(input("Enter Employee Age: "))
+    emp_id = input("Enter Employee ID: ")
+    emp_dept = input("Enter Department: ")
+    emp = Employee(emp_name, emp_age, emp_id, emp_dept)
+    
+    
+    pat_name = input("\nEnter Patient Name: ")
+    pat_age = int(input("Enter Patient Age: "))
+    pat_id = input("Enter Patient ID: ")
+    pat_disease = input("Enter Disease: ")
+    pat = Patient(pat_name, pat_age, pat_id, pat_disease)
+    
+    
+    emp.getEmployeeDetails()
+    pat.getPatientDetails()
+
 ## Sample Output
+Enter Employee Name: John
+Enter Employee Age: 30
+Enter Employee ID: E101
+Enter Department: IT
+
+Enter Patient Name: Alice
+Enter Patient Age: 25
+Enter Patient ID: P202
+Enter Disease: Fever
+
+Employee Details
+Name       : John
+Age        : 30
+Employee ID: E101
+Department : IT
+
+Patient Details 
+Name      : Alice
+Age       : 25
+Patient ID: P202
+Disease   : Fever
+
+## Result
+Thus, the Python program for Hierarchical Inheritance was successfully executed.
+The base class Details was inherited by Employee and Patient classes, and details for both were collected and displayed correctly.
 
