@@ -61,7 +61,7 @@ location = input("Enter Location: ")
 person1 = Location(name, age, location)
 
 
-print("\n--- Person Details ---")
+
 print("Name:", person1.getName())
 print("Age:", person1.getAge())
 print("Location:", person1.getLocation())
