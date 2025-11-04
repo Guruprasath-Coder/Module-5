@@ -93,28 +93,9 @@ if __name__ == "__main__":
     emp.getEmployeeDetails()
     pat.getPatientDetails()
 
+```
 ## Sample Output
-Enter Employee Name: John
-Enter Employee Age: 30
-Enter Employee ID: E101
-Enter Department: IT
-
-Enter Patient Name: Alice
-Enter Patient Age: 25
-Enter Patient ID: P202
-Enter Disease: Fever
-
-Employee Details
-Name       : John
-Age        : 30
-Employee ID: E101
-Department : IT
-
-Patient Details 
-Name      : Alice
-Age       : 25
-Patient ID: P202
-Disease   : Fever
+<img width="811" height="229" alt="image" src="https://github.com/user-attachments/assets/c7ce9114-9cc3-4586-a672-1f749b467d4d" />
 
 ## Result
 Thus, the Python program for Hierarchical Inheritance was successfully executed.
