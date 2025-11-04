@@ -50,13 +50,10 @@ obj = Derived()
 print("Addition:", obj.Summation(a, b))
 print("Subtraction:", obj.Subtraction(a, b))
 print("Division:", obj.Division(a, b))
-
+```
 ## Output Example
-Enter first number: 20
-Enter second number: 5
-Addition: 25
-Subtraction: 15
-Division: 4.0
+<img width="334" height="209" alt="image" src="https://github.com/user-attachments/assets/33a0230d-71ef-43a9-83db-de167871c1bf" />
+
 
 ## Result
 This program successfully demonstrates multiple inheritance in Python by performing Addition, Subtraction, and Division using three classes.
