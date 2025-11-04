@@ -21,10 +21,10 @@ class Student:
         print("Welcome,", self.a)
 s1 = Student()
 s1.show()
+```
 ## Output
-Enter Student Name: Guru
-This is non-parameterized constructor
-Welcome, Guru
+<img width="838" height="220" alt="image" src="https://github.com/user-attachments/assets/45adc714-ae27-4e3a-bb64-85338bbb11c5" />
+
 
 ## Result
 The program successfully demonstrates the use of a default constructor in Python by taking a student’s name as input and displaying a welcome message along with the constructor message.
