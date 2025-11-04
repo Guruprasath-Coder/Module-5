@@ -31,11 +31,10 @@ class Demo:
         print("Destructor called, object destroyed")
 obj = Demo()
 del obj
-
+```
 
 ## 🧪 Output
-Constructor called, status: Alive
-Destructor called, object destroyed
+<img width="595" height="163" alt="image" src="https://github.com/user-attachments/assets/45257350-6528-45f1-bd76-344cd37d6330" />
 
 ## Result
 Thus, the program successfully demonstrates the use of constructor and destructor in Python.
